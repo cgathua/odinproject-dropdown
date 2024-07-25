@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop-down menu</title>
+    <!--SEO-->
+    <meta name="title" content="odin project drop-down menu assignment">
+    <meta name="description" content="This is a drop-down menu assignment, made by cgathua">
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--LINKED JS-->
+    <script defer src="./main.js"></script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1 class="logo" aria-label="logo">Logo</h1>
+            <nav>
+                <ul class="menu" aria-label="primary">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li>
+                        <button id="menu-btn" aria-haspopup="true" aria-expanded="false">JS Dropdown &#9662;</button>
+                        <ul id="secondary-nav" aria-label="secondary">
+                            <li><a href="#" class="nav-link">Link 1</a></li>
+                            <li><a href="#" class="nav-link">Link 2</a></li>
+                            <li><a href="#" class="nav-link">Link 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </nav>
+        </header>
+    </main>
+</body>
+
+</html>
